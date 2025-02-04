@@ -1,0 +1,23 @@
+[property]
+net-scale-factor=0.0039215697906911373
+model-color-format=0
+onnx-file=best.onnx
+model-engine-file=best.engine
+#label_file name is static=labels_with_type.txt, change it's contents
+## 0=FP32, 1=INT8, 2=FP16 mode
+network-mode=2
+num-detected-classes=372
+##1 Primary 2 Secondary
+process-mode=2
+#0 detector 1 classifier 2 segmentatio 3 instance segmentation
+network-type=1
+classifier-async-mode=0
+classifier-threshold=0.41
+cluster-mode=4
+parse-classifier-func-name=NvDsInferClassicationParseYolo
+custom-lib-path=nvdsinfer_custom_impl_Yolo/libnvdsinfer_custom_impl_Yolo.so
+engine-create-func-name=NvDsInferYoloCudaEngineGet
+
+## az
+maintain-aspect-ratio=1
+symmetric-padding=1
