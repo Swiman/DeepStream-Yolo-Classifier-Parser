@@ -78,3 +78,7 @@ config-file=config_infer_secondary_carmake_yolo.txt
 
 
 **NOTE**: For dynamic model converstion refer to [`dynamicModel.md`](dynamicModel.md) file.
+
+
+## Acknowledgements
+Most of the code in this repository is based on the work by  [marcoslucianops/DeepStream-Yolo](https://github.com/marcoslucianops/DeepStream-Yolo/tree/master)
