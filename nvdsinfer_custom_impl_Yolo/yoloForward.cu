@@ -1,6 +1,6 @@
 /*
- * Created by Marcos Luciano
- * https://www.github.com/marcoslucianops
+ * Created by amin malekmo
+ * https://www.github.com/swiman
  */
 
 #include <stdint.h>
